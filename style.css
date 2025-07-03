@@ -1,5 +1,15 @@
-* {
-    background-color: rgba(219, 223, 217, 0.895);
+/* {
+    
+}*/
+
+#kkk {
+    
+    filter: drop-shadow(18px 18px 18px rgb(178, 153, 199));
+    border-radius: 50px;
+    padding: 30px;
+    width: 150px;
+    height: 100px;
+    
 }
 
 body {
@@ -10,7 +20,7 @@ body {
 }
 
 header {
-    color: #fff;
+    color: #926c6c;
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
@@ -26,24 +36,59 @@ header nav ul {
 }
 
 header nav a {
-    color: #936161;
-    text-decoration: wavy;
+    color: #ab4343;
+    text-decoration: none;
+    font-size: 17px;
 }
 
-.main {
-    
-    padding: 80px 40px;
+.main1 {
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(195, 97, 97);
+    font-size: 35px;
+}
+
+.main2 {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.subhl {
+    padding: 7px;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;    
+
 }
 
 section {
     padding: 40px;
 }
 
+#aus {
+    text-align: center;
+
+}
+
 footer {
-    color: #fff;
+    color: #604747;
     text-align: center;
     padding: 20px;
+}
+
+.ibox {
+    border-radius: 20px;
+    border-left-width: 6px;
+    border-right-width: 6px;
+    width: 400px;   
+    margin-left: 150px;
+    display: block;
+}
+
+#sendbtn {
+    margin-left: 350px;
+    border-radius: 7px;
+    display: block;
+
 }
 
 input, textarea {
@@ -54,17 +99,15 @@ input, textarea {
 }
 
 .kee {
-    justify-items: center;
-    justify-content: center;
     text-align: center;
-    color: rgb(130, 118, 65);
-    font-size: xx-large;
-    font-style: oblique;
-    font-weight: 600px;
+    color: rgb(178, 153, 189);
+    font-weight: 60px;
+    font-size: 70px;
+    text-shadow: 2px 2px 5px rgb(158, 37, 37);
 }
 
 .ce {
-    color: rgb(22, 37, 37);
+    color: rgb(156, 7, 119);
 }
 
 .sub {
