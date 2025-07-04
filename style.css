@@ -1,21 +1,23 @@
-/* {
-    
-}*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
 
 #kkk {
-    
+      
     filter: drop-shadow(18px 18px 18px rgb(20, 120, 184));
     border-radius: 50px;
     padding: 30px;
-    width: 150px;
-    height: 100px;
+    width: 200px;
+    height: 150px;
+    
     
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    padding: 0px;
     line-height: 1.6;
 }
 
@@ -42,31 +44,41 @@ header nav a {
 
 .main1 {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(107, 111, 157);
-    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: #7da0e7;
+    font-size: 30px;
 }
 
-.main2 {
+.maincontent {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.mheadsub {
+    color: rgb(9, 120, 218);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.mainsubcontent {
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .subhl {
-    padding: 7px;
+    padding: 5px;
     font-size: 27px;
-    font-family: Arial, Helvetica, sans-serif;    
-    color: cornflowerblue;
-
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+    color: rgb(113, 148, 214);
 }
 
 section {
-    padding: 40px;
+    padding: 50px;
 }
 
 #aus {
     text-align: center;
-
 }
 
 footer {
