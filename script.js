@@ -1,14 +1,8 @@
-/*type="application/ld+json">
-{
+function toggleMenu() {
+    const nav =document.querySelector('.nav-links');
+    nav.classList.toggle('show');
 
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "@url": "https://yourwebsite.com",
-    "logo":
-"https://yourwebsite.com/Logo/KEE LOGO.png",
-    "name": "Kalyani E Enterprie"
-
-}*/
+}
 
 function showAlert() {
 

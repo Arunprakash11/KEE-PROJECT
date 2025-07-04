@@ -19,17 +19,18 @@
 
 <body>
     
-    <header class="header">
+    <header>
 
-        <p><img src="./Logo/KEE.jpg" alt="" id=kkk></p>
+        <div><img src="./Logo/KEE.jpg" alt="" id=logoo></div>
         <p class="kee">Kalyani <span class="ce">E</span> Enterprise</p>
         <nav>
-            <ul>
+            <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#Profile">Profile</a></li>
                 <li><a href="#Product">Product</a></li>
                 <li><a href="#Follow Us">Follow us</a></li>
             </ul>
+            <button class="nav-toggle" onclick="toggleMenu()">☰</button>
         </nav>
 
     </header>
@@ -171,9 +172,14 @@
     </section>
 
     <footer>
-
-        <p>&copy; 2025 Kalyani E Enterprise. All rights reserved.</p>
-
+        <div class="foooter-container">
+            <p>&copy; 2025 Kalyani E Enterprise. All rights reserved.</p>
+            <ul class="foooter-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </div>
     </footer>
 
     <script src="./script.js"></script>

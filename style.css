@@ -4,43 +4,103 @@
     box-sizing: border-box;    
 }
 
-
-#kkk {
-      
-    filter: drop-shadow(18px 18px 18px rgb(20, 120, 184));
-    border-radius: 50px;
-    padding: 30px;
-    width: 200px;
-    height: 150px;
-    
-    
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
 }
 
+/* css logo(Kee) starts*/
+
+#logoo {
+      
+    filter: drop-shadow(18px 18px 18px rgb(20, 120, 184));
+    border-radius: 50px;
+    padding: 30px;
+    width: 180px;
+    height: 150px;      
+}
+
+.kee {
+    text-align: center;
+    color: rgb(26, 120, 179);
+    font-weight: 60px;
+    font-size: 70px;
+    text-shadow: 2px 2px 5px rgb(32, 30, 30);
+}
+
+.ce {
+    color: rgb(61, 206, 75);
+}
+
+/* css Logo(Kee) ends*/
+
+
+                        /* css header starts*/
+
 header {
-    padding: 20px 0;
+    background-color: #204080;
+    color: white;
+    padding: 15px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 40px;
-    padding-right: 40px;
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
 }
 
-header nav ul {
+.nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 25px;
 }
 
-header nav a {
+.nav-links li a {
     color: #2050b2;
     text-decoration: none;
     font-size: 17px;
+    font-weight: 500;
+    transition: color 0.3s;
 }
+
+.nav-links li a:hover {
+    color: #ffcc00;
+}
+
+.nav-toggle {
+    display: none;
+    font-size: 25px;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+} 
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 15px;
+        background: #2050b2;
+        top: 50px;
+        right: 20px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+}
+
+.nav-links.show {
+    display: flex;
+
+}
+
+.nav-toggle {
+    display: block;
+}
+
+/* css header ends*/
+
+                        /* css section starts*/
 
 .main1 {
     text-align: center;
@@ -77,15 +137,6 @@ section {
     padding: 50px;
 }
 
-#aus {
-    text-align: center;
-}
-
-footer {
-    color: #604747;
-    text-align: center;
-    padding: 20px;
-}
 
 .ibox {
     border-radius: 20px;
@@ -111,15 +162,41 @@ input, textarea {
     padding: 20px;
 }
 
-.kee {
+
+/* css section ends*/
+
+                            /* css footer starts*/
+
+footer {
+    background-color: #133343;
+    color: #c09d9d;
     text-align: center;
-    color: rgb(26, 120, 179);
-    font-weight: 60px;
-    font-size: 70px;
-    text-shadow: 2px 2px 5px rgb(32, 30, 30);
+    padding: 20px 40px;
+    margin-top: 40px;
 }
 
-.ce {
-    color: rgb(61, 206, 75);
+.footer-container {
+    margin: auto;
+    max-width: 1000px;
 }
 
+.footer-links {
+    list-style: none;
+    padding: 10px 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-links li a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.footer-links li a:hover {
+    color: white;
+}
+
+/* css section ends*/
