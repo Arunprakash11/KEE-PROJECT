@@ -1,13 +1,5 @@
 function toggleMenu() {
-    const nav =document.querySelector('.nav-links');
-    nav.classList.toggle('show');
-
-}
-
-function showAlert() {
-
-    alert("Thank you for your interest! We'll share more info soon.");
-
+    document.querySelector('.nav-links').classList.toggle('show');
 }
 
 function validateform() {
