@@ -18,3 +18,20 @@ function validateform() {
     alert("Message Sent Successfully!");
     return true;
 }
+
+
+const items = document.querySelectorAll('.service-item, .customer');
+
+function showOnScroll() {
+
+    const triggerBottom = window.innerHeight * 0.85;
+
+    items.forEach(item => {
+        const boxTop = item.getBoundingClientRect().top;
+        if (boxTop < triggerBottom) {
+            item.style.opacity = 1;
+            item.style.transform = 'translateY(0)';
+        }
+    })
+
+}

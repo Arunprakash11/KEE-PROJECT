@@ -5,8 +5,10 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     line-height: 1.6;
+    background-color: #f5f7fa;
+    color: #123456;
 }
 
 /* css logo(Kee) starts*/
@@ -25,7 +27,7 @@ body {
     color: rgb(26, 120, 179);
     font-weight: 60px;
     font-size: 70px;
-    text-shadow: 2px 2px 5px rgb(32, 30, 30);
+    text-shadow: 2px 2px 5px rgba(20, 126, 172, 0.92);
 }
 
 .ce {
@@ -103,13 +105,16 @@ header {
 
                         /* css section starts*/
 
+/* css Home-section starts*/
+
 .home-section {
     padding: 50px 10px;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 5px 20px rgba(2, 1, 1, 0.1);
+    font-size: 20px;
 }
 
 .home-section h2 {
@@ -134,15 +139,64 @@ header {
 .Home-grid {
     display: grid;
     gap: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
 }
+
+/* css Home-section ends*/
+
+/* css profile-section starts*/
+
+.profile-section {
+    padding: 40px 10px;
+    max-width: 1300px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: auto;
+    box-shadow: 0 5px 20px rgba(2, 1, 1, 0.1);
+    font-size: 20px;
+}
+
+.profile-section h3 {
+    color: #0073e6;
+    margin: 0 0 10px;
+    text-align: center;
+    position: relative;
+    font-size: 1.8rem;
+}
+
+.profile-section h3::after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 4px;
+    background-color: #0073e6;
+}
+
+.profile-grid {
+    display: grid;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.profile-item {
+    margin-left: 20px;
+}
+
+/* css Profile-section ends*/
+
+/* css Service-section starts*/
 
 .service-section {
     padding: 40px 10px;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 5px 20px rgba(2, 1, 1, 0.1);
+    font-size: 20px;
 
 }
 
@@ -168,6 +222,7 @@ header {
     display: grid;
     gap: 20px;
     margin-bottom: 40px;
+    margin-left: 20px;
 }
 
 /* @media (min-width: 768px) {
@@ -188,31 +243,36 @@ header {
 } */
 
 .service-item, .customer {
-    padding: 5px;
+    padding: 10px;
     border-left: 5px solid rgb(27, 27, 28);
-    border-radius: 5px;
+    border-radius: 5px 30px;
     transition: 0.3s ease;
     background-color: #eaf1fb;
 }
 
 .service-item:hover, .customer:hover {
-    background-color: #d280e2;
+    background-color: #1e88e5;
     transform: scale(1.1);
 }
 
+/* css Service-section ends*/
+
+/* css Follow-section starts*/
+
 .follow-section {
-    padding: 20px 10px;
-    max-width: 1200px;
+    padding: 20px 30px;
+    max-width: 1300px;
     margin: auto;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 5px 20px rgba(2, 1, 1, 0.1);
+    font-size: 20px;
 }
 
 
 .follow-section  h3 {
     font-size: 1.8rem;
-    color: #0073e6;
+    color: #1e88e5;
     margin: 0 0 20px;
     text-align: center;
     position: relative
@@ -232,7 +292,14 @@ header {
     display: grid;
     gap: 20px;
     margin-bottom: 40px;
+    margin-left: 20px;
 }
+
+
+
+/* css Follow-section ends*/
+
+/* css Queries-section starts*/
 
 .queries-box {
     width: 400px;   
@@ -254,7 +321,7 @@ input, textarea {
 }
 
 #submit-button {
-    color: rgb(40, 218, 108);
+    color: #e0e0e0;
     margin: 20px 0 20px 180px;
     padding: 15px;
     width: 70px;
@@ -269,7 +336,7 @@ input, textarea {
     transform: scale(1.2);
 }
 
-
+/* css -section ends*/
 
 /* css section ends*/
 
