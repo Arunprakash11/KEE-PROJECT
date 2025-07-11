@@ -1,6 +1,21 @@
-function toggleMenu() {
-    document.querySelector('.nav-links').classList.toggle('show');
-}
+/* function toggleMenu() {
+
+    const nav = document.getElementById("navlinks");
+    nav.classList.toggle("active");
+
+    nav.classList.toggle("active");
+
+
+  // Toggle ☰ and ✖
+    if (nav.classList.contains("active")) {
+
+        toggleBtn.textContent = "✖";
+    } else {
+
+        toggleBtn.textContent = "☰";
+
+    }
+}*/
 
 function validateform() {
 
@@ -33,5 +48,4 @@ function showOnScroll() {
             item.style.transform = 'translateY(0)';
         }
     })
-
 }

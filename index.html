@@ -13,24 +13,22 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-
 </head>
-
 
 <body>
     
     <header>
 
-        <div><img src="./Logo/KEE.jpg" alt="" id=logoo></div>
+        <div><img src="./Logo/KEE.jpg" alt="KEE Logo" id=logoo></div>
         <div class="kee">Kalyani <span class="ce">E</span> Enterprise</div>
+        <!-- <button class="nav-toggle" onclick="toggleMenu()">☰</button> -->
         <nav>
-            <ul class="nav-links">
+            <ul class="nav-links" id="navlinks">
                 <li><a href="#Home">Home</a></li>
                 <li><a href="#Profile">Profile</a></li>
                 <li><a href="#Service">Service</a></li>
                 <li><a href="#Follow Us">Follow us</a></li>
             </ul>   
-            <button class="nav-toggle" onclick="toggleMenu()">☰</button>
         </nav>
 
     </header>
@@ -38,14 +36,12 @@
 
     <section id="Home" class="home-section">
 
-            <h2>Introduction</h2>
+            <h2 class="intro">Introduction</h2>
 
             <div class="Home-grid">
-
                 <div class="intro-item">KALYANI E ENTERPRISE an organization established by highly experienced senior level Executives in design and developers of Boiler and control system for thermal power plant worked at BHEL.</div>
 
-                <div class="intro-item">We are a leading company providing top-notch assembley the modules and sensors for our customer needs and then what we are doing here. Our goal is to achieve the best quality in our services and activities. KALYANI E ENTERPRISE is 10 Member expertise team in Technical, Marketing and Commercial services. </div>
-
+                <div class="intro-item">We are a leading company providing top-notch assembley the modules and sensors for our customer needs and then what we are doing here. Our goal is to achieve the best quality in our services and activities. KALYANI E ENTERPRISE is Seven Member expertise team in Technical, Marketing and Commercial services. </div>
             </div>
 
     </section>
@@ -56,12 +52,12 @@
 
         <div class="profile-grid">
 
-            <div class="profile-item">KALYANI E ENTERPRISE is a technically driven organization founded by senior-level professionals with extensive experience in the design and development of boiler and control systems for thermal power plants. The founding team members have previously worked at BHEL (Bharat Heavy Electricals Limited), bringing valuable industry expertise.
+            <div class="profile-item">KALYANI E ENTERPRISE is a technically driven organization founded by senior-level professionals with extensive experience in the design and development of boiler and control systems for thermal power plants. The EX-BHEL employee have previously worked at BHEL (Bharat Heavy Electricals Limited), bringing valuable industry expertise.
             </div>
 
             <h3>Registered Office</h3>
 
-            <div class="profile-item">
+            <div class="profile-item">Address : 
                 No.11, Kamaraj Street, Anand Nagar,
                 Sabari Mill (Near Perumal Kovil),
                 K. K. Nagar Post, Trichy – 620 021, Tamil Nadu. 
@@ -77,33 +73,37 @@
             <div class="profile-item">We specialize in the supply and servicing of Mechanical and Control & Instrumentation (C&I) spares for thermal power plants. Our offerings include:
             </div>
 
-            <div class="profile-item"><strong>1</strong>. Boiler Control & Instrumentation Spares</div>
+            <div class="profile-item"></div>
 
             <div class="profile-item">
-                <li>Drum steam/water level indicator : Ascertor, Display Driver, Relay Driver, Power Supply, Motherboards</li><br>
-                <li>Flame Scanners : Head Assembly, Flame Processor (2/4 module), Power Supply, System Motherboard</li><br>
-                <li>High Energy Arc Ignitor : Spark Tip, Excitor Box, Flexible Cable, Spark Rod, Retractor Assembly</li><br>
-                <li>Steam Leak Detection : ASLD Sensor, Field Amplifier, Signal Processor, Alarm Processor, Audio Channel Selector</li><br>
-                <li>Coal Feeder System : Signal Interface, Conditioning, Motor Control, Relay Interface, Pulse Relay Module, Communication Interface, Relays, Timers, Chokes</li>
+                <h4><strong>1</strong>. Boiler Control & Instrumentation Spares</h4>
+                <ul>
+                    <li>Drum steam/water level indicator : Ascertor, Display Driver, Relay Driver, Power Supply, Motherboards</li>
+                    <li>Flame Scanners : Head Assembly, Flame Processor (2/4 module), Power Supply, System Motherboard</li>
+                    <li>High Energy Arc Ignitor : Spark Tip, Excitor Box, Flexible Cable, Spark Rod, Retractor Assembly</li>
+                    <li>Steam Leak Detection : ASLD Sensor, Field Amplifier, Signal Processor, Alarm Processor, Audio Channel Selector</li>
+                    <li>Coal Feeder System : Signal Interface, Conditioning, Motor Control, Relay Interface, Pulse Relay Module, Communication Interface, Relays, Timers, Chokes</li>
+                </ul>
             </div>
-
-            <div class="profile-item"><strong>2</strong>. On-site Calibration</div>
 
             <div class="profile-item">
-                <li>Flame Scanners</li><br>
-                <li>Coal Feeder</li><br>
-                <li>Steam Leak Detection System</li>
+                <h4><strong>2</strong>. On-site Calibration</h4>
+                <ul>
+                    <li>Flame Scanners</li>
+                    <li>Coal Feeder</li>
+                    <li>Steam Leak Detection System</li>
+                </ul>    
             </div>
-
-            <div class="profile-item"><strong>3</strong>. Mechanical Services</div>
 
             <div class="profile-item">
-                <li>Gravimetric Feeder Spares</li><br>
-                <li>Coal Feeder Inlet/Outlet Gates</li><br>
-                <li>Oil Gun Assembly</li><br>
-                <li>Scanner & Igniter Guide Pipes</li>
+                <h4><strong>3</strong>. Mechanical Spares</h4>
+                <ul>
+                    <li>Gravimetric Feeder Spares</li>
+                    <li>Coal Feeder Inlet/Outlet Gates</li>
+                    <li>Oil Gun Assembly</li>
+                    <li>Scanner & Igniter Guide Pipes</li>
+                </ul> 
             </div>
-
 
         </div>
         
@@ -122,7 +122,7 @@
             <div class="section-item">Reverse Engineering</div>
         </div>
 
-        <h3>Services & Components</h3>
+        <h3>Service & Components</h3>
 
         <div class="service-grid">
             <div class="section-item">Calibration of Coal feeder</div>
@@ -134,14 +134,16 @@
         <h3>Esteemed Customers</h3>
 
         <div class="customer-grid">
-            <div class="customer">NTPC - NATIONAL THERMAL POWER CORPORATION LIMITED</div>
-            <div class="customer">KPCL/RTPS - RAICHUR THERMAL POWER STATION</div>
-            <div class="customer">PGCL/TATA POWER - POWER GRID CORPORTION OF INDIA LIMITED</div>
-            <div class="customer">JAYPEE POWER - JAIPRAKASH POWER VENTURES LIMITED</div>
-            <div class="customer">RTPS - RATTAN INDIA POWER LIMITED</div>
-            <div class="customer">MAITHON TPS - MAITHON THERMAL POWER STATION</div>
-            <div class="customer">KFCL </div>
-            
+            <div class="customer">NTPC - [ NATIONAL THERMAL POWER CORPORATION LIMITED ]</div>
+            <div class="customer">KPCL/RTPS - [ RAICHUR THERMAL POWER STATION ]</div>
+            <div class="customer">PPGCL/TATA POWER - [ POWER GRID CORPORTION OF INDIA LIMITED ]</div>
+            <div class="customer">JAYPEE POWER - [ JAIPRAKASH POWER VENTURES LIMITED ]</div>
+            <div class="customer">RTPS - [ RATTAN INDIA POWER LIMITED ]</div>
+            <div class="customer">MAITHON TPS - [ MAITHON THERMAL POWER STATION ]</div>
+            <div class="customer">JPL/TAMNAR - [ JINDAL POWER LIMITED ]</div>
+            <div class="customer">APGENCO - [ ANDHRA PRADESH POWER GENERATION CORPORATION LIMITED ]</div>
+            <div class="customer">HZL - [ HINDUSTAN ZINC LIMITED ]</div>
+            <div class="customer">KFCL </div>  
         </div>
 
     </Section>
@@ -152,7 +154,7 @@
 
         <div class="follow-grid">
             <div class="contact-details"> <strong>Address</strong> - No.11, Kamaraj street,Anand Nagar, Sabari Mill, (Near Perumal Kovil ) K K Nagar Post, Trichy 620 021, Tamil Nadu.</div>
-            <div> <strong>E-mail</strong>  : <a href="#">kalyanieenterprise@gmail.com</a></div>
+            <div> <strong>E-mail</strong>  : <a href="mailto:kalyanieenterprise@gmail.com">kalyanieenterprise@gmail.com</a></div>
             <div> <strong>Mob - No</strong> : 9559883037 / 9442503037</div>
             <div> <strong>GST</strong> : 33ASOPK9643B1ZO</div>
             <div> <strong>MSME</strong> : UDYAM-TN-27-0021439</div>
@@ -162,14 +164,14 @@
 
     <section>
 
-        <div class="queries-box">
+        <div class="queries-form">
             <form action="" onsubmit="return validateForm()">
                 
-                <input type="text" id="name" placeholder="Your Name" class="queries-range" required>
+                <input type="text" id="name" placeholder="Your Name" class="queries-forminput" required>
 
-                <input type="text" id="email" placeholder="Your Email" class="queries-range" required>
+                <input type="text" id="email" placeholder="Your Email" class="queries-forminput" required>
                 
-                <textarea name="" id="message" placeholder="Your Message" class="queries-range"></textarea>
+                <textarea name="" id="message" placeholder="Your Message" class="queries-forminput"></textarea>
 
                 <button type="submit" id="submit-button">Send</button>
 
